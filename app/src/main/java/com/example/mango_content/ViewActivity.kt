@@ -39,6 +39,7 @@ class ViewActivity : AppCompatActivity() {
 
             myBookMarkRef
                 .child(auth.currentUser!!.uid)
+                .push()
                 .setValue(ContentModel(url, imageUrl, title))
 
             Toast.makeText(this, "저장되었습니다.", Toast.LENGTH_LONG).show()

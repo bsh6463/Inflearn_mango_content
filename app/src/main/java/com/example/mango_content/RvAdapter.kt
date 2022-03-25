@@ -55,7 +55,7 @@ class RvAdapter(val context:Context, val List: MutableList<ContentModel> ): Recy
 
             //mainactivity context작동하겠다?
             //Glide 라이브러리를 통해 웹에서 이미지를 가져와 imageView에 추가 가능
-            Glide.with(context).load(item.ImageUrl).into(rv_img)
+            Glide.with(context).load(item.imageUrl).into(rv_img)
         }
 
     }

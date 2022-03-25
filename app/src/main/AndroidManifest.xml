@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mango_content">
         <activity
+            android:name=".BookmarkActivity"
+            android:exported="true" />
+        <activity
             android:name=".JoinActivity"
             android:exported="true" />
         <activity
